@@ -1,0 +1,7 @@
+# папки
+node_modules
+.idea
+
+# конфиги
+.env
+config.js

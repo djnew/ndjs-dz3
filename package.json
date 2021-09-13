@@ -1,0 +1,19 @@
+{
+  "name": "dz3",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "aklementev <aklementev@turbozaim.ru>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node -r dotenv/config index.js dotenv_config_path=.env",
+    "lint": "eslint --ext \".js\" --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "eslint": "^7.32.0",
+    "yargs": "^17.1.1"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}
